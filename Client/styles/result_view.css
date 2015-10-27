@@ -1,0 +1,146 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 14, 2015, 7:40:44 AM
+    Author     : Nipuna
+*/
+
+.resultContainer{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+/*search bar */
+.searchBar{
+    position: relative;
+    width: initial;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.searchBar .searchTxt{
+    width: 400px;
+    height: 30px;
+    border-color: bisque;
+    font-size: 14pt;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.searchBar .btnsearch{
+    width: initial;
+    height: 35px;
+    font-size: 14pt;
+    font-family: cursive;
+}
+
+.bestPositiveReview{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.bestPositiveReview h4{
+    font-size: x-large;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.bestNegativeReview{
+    position: relative;
+    margin-left: 100px;
+    margin-top: 60px;
+}
+
+.bestNegativeReview h4{
+    font-size: x-large;
+    font-family: cursive;
+    color: aliceblue;
+}
+
+.percentageContainer{
+    position: absolute;
+    margin: 0 auto;
+    align-content: center;
+    top: 100px;
+    left: 30%;
+    width: 700px;
+    height: 400px;
+    background-color: #243b4a;
+}
+
+.negativePerContainer{
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    width: 200px;
+    height: 300px;
+    color: red;
+}
+
+.neutralPerContainer{
+    display: block;
+    margin-top: 40px;
+    position: absolute;
+    top: 20px;
+    margin-left: 20px;
+    left: 200px;
+    width: 200px;
+    height: 300px;
+    color: lightblue;
+}
+
+.positivePerContainer{
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+    width: 200px;
+    height: 300px;
+    color: green;
+}
+
+.percentageTitles{
+    text-align: center;
+    font-size: 20pt;    
+    margin: 60px;
+}
+
+#txtnegtivePer{
+    font-size: 50pt;
+    position: absolute;
+    top: 130px;
+    left: 70px;
+}
+
+#txtneutralPer{
+    font-size: 50pt;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+
+#txtpositivePer{
+    font-size: 50pt;
+    position: absolute;
+    top: 70px;
+    left: 60px;
+}
+
+#sideNavContainer{
+    position: absolute;
+    right: 100px;
+    top: 100px;
+    width: 400px;
+}
+
+#reviewStatics{
+    position: absolute;
+    bottom: 10px;
+}

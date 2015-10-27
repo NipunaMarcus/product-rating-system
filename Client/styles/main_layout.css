@@ -1,0 +1,130 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 12, 2015, 9:21:35 AM
+    Author     : Nipuna
+*/
+
+/*Styles for html pages*/
+html{
+    display: block;
+    background-image: url(../images/backgrounds/main-background.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: 'OpenSans';
+    margin: 0;
+}
+
+/*-------- Login Navigation -------------------*/
+#loginHeader{
+    background-color: #0A0808;
+    border-bottom: 1px solid #EFCBCB;
+    height: 50px;
+    padding: 0;
+}
+
+#loginH{    
+    border-width: 1px 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    float: right;
+}
+
+#loginH li {
+    float: left;
+    padding: 7px 5px;
+    margin: 0 5px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    display: inline-block;
+}
+
+#loginHeader .upperNav{
+    width: 920px;
+    margin: 0 auto;
+    height: 50px;
+    position: relative;
+}
+
+#loginHeader .upperNav #loginH li .loginNav {
+}
+
+#loginHeader .upperNav #loginH li .userImageContainer {
+    width: 50px;
+}
+
+#loginHeader .upperNav #loginH li .userImageContainer img{
+    width: 30px;
+    height: auto;
+    cursor: pointer;
+}
+
+#loginHeader .upperNav #loginH li #loginuserdetails{
+
+    color: #E8C5C5;
+}
+
+#loginHeader .upperNav #loginH li #loginuserdetails span{
+    display: block;
+}
+
+#loginHeader .upperNav #loginH li .loginNav #nav {
+    border-width: 1px 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+
+}
+
+#loginHeader .upperNav #loginH li .loginNav #nav li {
+    float: left;
+    padding: 7px 5px;
+    margin: 0 5px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    border-radius: 7px;
+    display: inline-block;
+}
+
+#loginHeader .upperNav #loginH li .loginNav #nav li a {
+    color: #0b70cc;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 13pt;
+}
+
+#loginHeader .upperNav #loginH li .loginNav #nav li a:hover {
+    color: #B0BECA;
+    text-decoration: none;
+    display: inline-block;
+    font-family: cursive;
+    font-size: 13pt;
+}
+
+/*Styles for page loading area*/
+#loadPageContainer{
+    position: relative;
+    margin: 0 auto;
+    height:70%;
+}
+
+/*Styles for the footer of the page*/
+#footerContainer{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(51, 51, 58);
+    margin-bottom: 0px;
+    bottom: 0;
+}
